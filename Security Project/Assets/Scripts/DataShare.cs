@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DataShare : MonoBehaviour
 {
+    public GameObject test;
     public GameObject codePanel;
     public GameObject keyCodeDoor;
 
