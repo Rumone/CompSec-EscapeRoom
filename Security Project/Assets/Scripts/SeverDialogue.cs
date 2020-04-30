@@ -12,19 +12,39 @@ public class SeverDialogue : MonoBehaviour
     public GameObject Panel2;
     public GameObject Router;
     public GameObject Text;
-    public void OnTriggerEnter2D(Collider2D other)
+
+    public bool canActivate;
+    public bool FoundLaptop = false;
+
+    private void Update()
     {
-       
-        if(other.tag == "Player")
+        if(canActivate== true && Input.GetKeyUp("space"))
         {
             Panel.SetActive(true);
+            PlayerController.instance.canMove = false;
+            
+
         }
 
-        if(Laptop != null)
+        if(canActivate == true && Input.GetKeyUp("space") && FoundLaptop == true)
         {
-            Laptop.SetActive(true);
+            Panel2.SetActive(true);
+            PlayerController.instance.canMove = false;
         }
+    }
 
+    
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+            canActivate = true;
+            
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+            canActivate = false;
     }
 
     public void GetInput(string answer)
@@ -46,7 +66,8 @@ public class SeverDialogue : MonoBehaviour
 
     public void Close()
     {
-        Panel2.SetActive(false);
+        Panel2.SetActive(!Panel2);
+        PlayerController.instance.canMove = true;
 
     }
 
