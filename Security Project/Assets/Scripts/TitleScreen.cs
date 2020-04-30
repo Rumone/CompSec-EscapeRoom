@@ -12,4 +12,9 @@ public class TitleScreen : MonoBehaviour
     {
        SceneManager.LoadScene(areaToLoad);
     }
+
+    public void LoadInstructionsScreen()
+    {
+        SceneManager.LoadScene(areaToLoad);
+    }
 }
