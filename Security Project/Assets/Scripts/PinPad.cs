@@ -12,8 +12,9 @@ public class PinPad : MonoBehaviour
     public GameObject door;
     public GameObject door2;
 
-    string answer1 = "12345";
+    string answer1 = "125417";
     public bool canActivate;
+    public Image timerBar;
     public static PinPad instance;
     // Start is called before the first frame update
 
@@ -50,6 +51,7 @@ public class PinPad : MonoBehaviour
         else
         {
             Debug.Log("Wrong");
+            timerBar.fillAmount = timerBar.fillAmount - .009f;
         }
     }
 
@@ -73,9 +75,4 @@ public class PinPad : MonoBehaviour
 
     }
 
-    public void CloseLaptopWinow()
-    {
-        panel.SetActive(!panel.activeSelf);
-        PlayerController.instance.canMove = true;
-    }
 }

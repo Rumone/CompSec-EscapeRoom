@@ -223,7 +223,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -295,16 +295,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273824584}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.10916376, w: 0.9940238}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.8232, y: 2.8232, z: 2.8232}
   m_Children: []
   m_Father: {fileID: 2066729798}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 12.534}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000011444, y: 14.8}
+  m_AnchoredPosition: {x: 0, y: 34}
   m_SizeDelta: {x: 231.4, y: 30.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273824586
@@ -673,7 +673,7 @@ Animator:
   m_GameObject: {fileID: 1504176793}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bd6c1fa459c44ad47b81391d4a3b5f96, type: 2}
+  m_Controller: {fileID: 9100000, guid: 44b712b0cbf2bb946ba433d229a8b3df, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -771,4 +771,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7adcd7eb3ccde874aa11e231cd097ceb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaToLoad: Instructions
+  areaToLoad: ControlsScreen
