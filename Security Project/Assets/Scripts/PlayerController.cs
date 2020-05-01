@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public string areaTransitionName;
 
     public bool canMove;
+    public bool HasKey;
     // Start is called before the first frame update
     void Start()
     {
