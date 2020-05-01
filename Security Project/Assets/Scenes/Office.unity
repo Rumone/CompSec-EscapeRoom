@@ -236,9 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogText: {fileID: 1561128162}
-  nameText: {fileID: 0}
   dialogBox: {fileID: 1910176914}
-  nameBox: {fileID: 0}
   dialogLines:
   - Find Barbara's Computer
   currentLine: 0
@@ -13960,7 +13958,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1910176915
 RectTransform:
   m_ObjectHideFlags: 0
