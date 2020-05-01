@@ -5,7 +5,6 @@ using UnityEngine;
 public class Mainframe : MonoBehaviour
 {
     public GameObject filetransferPanel;
-    public GameObject internalDialog;
     public bool canActivate;
     // Start is called before the first frame update
     void Start()
@@ -43,12 +42,6 @@ public class Mainframe : MonoBehaviour
     public void CloseWindow()
     {
         filetransferPanel.SetActive(false);
-        internalDialog.SetActive(true);
-    }
-
-    public void CloseDialog()
-    {
-        internalDialog.SetActive(false);
         PlayerController.instance.canMove = true;
     }
 }
