@@ -9466,12 +9466,12 @@ PrefabInstance:
     - target: {fileID: 324551307641618877, guid: fdb41cb25fb286f4081b631633d8467e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.7821655
+      value: 3.52
       objectReference: {fileID: 0}
     - target: {fileID: 324551307641618877, guid: fdb41cb25fb286f4081b631633d8467e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.688391
+      value: -6.67
       objectReference: {fileID: 0}
     - target: {fileID: 324551307641618877, guid: fdb41cb25fb286f4081b631633d8467e,
         type: 3}
@@ -10564,6 +10564,7 @@ MonoBehaviour:
   DialogScreen: {fileID: 933322954}
   Tree: {fileID: 1973985013}
   TextBox: {fileID: 831895633}
+  dialogActivatorObject: {fileID: 1726658831}
   Choice1: {fileID: 923545762}
   Choice2: {fileID: 1944120346}
   Choice3: {fileID: 1972393106}
@@ -12048,7 +12049,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060891987}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.55, y: -6.99, z: -0.59765625}
+  m_LocalPosition: {x: 2.55, y: -7.65, z: -0.59765625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

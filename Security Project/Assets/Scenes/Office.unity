@@ -14822,35 +14822,5 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7048311148381200625, guid: 43f1e5f5b9e770042a7302db43255681,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7048311148381200625, guid: 43f1e5f5b9e770042a7302db43255681,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7048311148381200625, guid: 43f1e5f5b9e770042a7302db43255681,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 41.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7048311148381200625, guid: 43f1e5f5b9e770042a7302db43255681,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7048311148381200625, guid: 43f1e5f5b9e770042a7302db43255681,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 82.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7048311148847427712, guid: 43f1e5f5b9e770042a7302db43255681,
-        type: 3}
-      propertyPath: m_Text
-      value: Search for Barbara's Laptop
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43f1e5f5b9e770042a7302db43255681, type: 3}

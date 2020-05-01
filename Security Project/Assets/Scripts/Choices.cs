@@ -8,6 +8,7 @@ public class Choices : MonoBehaviour
     public GameObject DialogScreen;
     public GameObject Tree;
     public GameObject TextBox;
+    public GameObject dialogActivatorObject;
 
     public GameObject Choice1;
     public GameObject Choice2;
@@ -95,6 +96,14 @@ public class Choices : MonoBehaviour
         {
             DialogScreen.SetActive(true);
             PlayerController.instance.canMove = false;
+        }
+       
+
+        if(PlayerController.instance.didDTree==true)
+        {
+            Tree.SetActive(false);
+            dialogActivatorObject.SetActive(false);
+
         }
        
     }
@@ -278,6 +287,7 @@ public class Choices : MonoBehaviour
         DialogScreen.SetActive(false);
         PlayerController.instance.canMove = true;
         Tree.SetActive(false);
+        PlayerController.instance.didDTree = true;
     }
 
     //--------------------------------------------------------
