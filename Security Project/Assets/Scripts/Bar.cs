@@ -9,7 +9,7 @@ public class Bar : MonoBehaviour
     public float maxTime = 5f;
     float timeLeft;
     public float waitTime = 30.0f;
-
+    public GameObject gameOverScreen;
     public static Bar instance;
 
     private void Start()
@@ -61,7 +61,10 @@ public class Bar : MonoBehaviour
     {
         if (timerBar.fillAmount == 0)
         {
-            Debug.Log("Times up");
+            Debug.Log("Game Over");
+            gameOverScreen.SetActive(true);
+            PlayerController.instance.canMove = false;
+            PlayerController.instance.canMove = false;
         }
     }
 
