@@ -21,6 +21,7 @@ public class SeverDialogue : MonoBehaviour
     {
         if(canActivate== true && Input.GetKeyUp("space"))
         {
+            Laptop.SetActive(true);
             Panel.SetActive(true);
             PlayerController.instance.canMove = false;
             

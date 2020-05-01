@@ -6,9 +6,7 @@ using UnityEngine.UI;
 public class DialogManager : MonoBehaviour
 {
     public Text dialogText;
-    public Text nameText;
     public GameObject dialogBox;
-    public GameObject nameBox; //not sure if this is needed
 
     public string[] dialogLines;
 
