@@ -5,7 +5,7 @@ using UnityEngine;
 public class Toilet : MonoBehaviour
 {
     public bool canActivate;
-    public GameObject cPanel;
+    public GameObject tPanel;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +17,7 @@ public class Toilet : MonoBehaviour
     {
         if (canActivate == true && Input.GetKeyUp("space"))
         {
-            cPanel.SetActive(true);
+            tPanel.SetActive(true);
             PlayerController.instance.canMove = false;
         }
     }
@@ -38,7 +38,7 @@ public class Toilet : MonoBehaviour
 
     public void CloseCPanel()
     {
-        cPanel.SetActive(false);
+        tPanel.SetActive(false);
         PlayerController.instance.canMove = true;
     }
 }

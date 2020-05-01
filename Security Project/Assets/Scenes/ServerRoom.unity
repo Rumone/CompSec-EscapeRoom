@@ -9836,7 +9836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canActivate: 0
-  cPanel: {fileID: 1484427151}
+  tPanel: {fileID: 1484427151}
 --- !u!1 &1532827071
 GameObject:
   m_ObjectHideFlags: 0
