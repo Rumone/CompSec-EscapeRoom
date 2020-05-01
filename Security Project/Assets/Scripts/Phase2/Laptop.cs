@@ -60,8 +60,9 @@ public class Laptop : MonoBehaviour
     }
     public void PhishingLink()
     {
-        panel2.SetActive(false);
         Bar.instance.gameOverScreen.SetActive(true);
+        panel2.SetActive(false);
+        
         PlayerController.instance.canMove = false;
 
     }

@@ -45,8 +45,11 @@ public class Router : MonoBehaviour
 
     public void CorrectButton()
     {
-        rPanel.SetActive(false);
+        PlayerController.instance.canMove = true;
         Bar.instance.inPhase3 = true;
         ExittoServerScene.SetActive(true);
+        rPanel.SetActive(false);
+
+
     }
 }
