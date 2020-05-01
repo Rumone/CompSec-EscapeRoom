@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
     public Image timerBar;
     public float maxTime = 5f;
     float timeLeft;
+
     //public float waitTime = 30.0f;
 
     public static Timer instance;

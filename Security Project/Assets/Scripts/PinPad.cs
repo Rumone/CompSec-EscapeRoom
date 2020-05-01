@@ -45,7 +45,7 @@ public class PinPad : MonoBehaviour
             door.SetActive(true);
             door2.SetActive(true);
             PlayerController.instance.canMove = true;
-
+            Bar.instance.inPhase2 = true;
 
         }
         else

@@ -11,7 +11,10 @@ public class Bar : MonoBehaviour
     public float waitTime = 30.0f;
     public GameObject gameOverScreen;
     public static Bar instance;
-
+    public GameObject phase;
+    public Text phaseText;
+    public bool inPhase2;
+    public bool inPhase3;
     private void Start()
     {
         if (instance == null)
@@ -28,8 +31,11 @@ public class Bar : MonoBehaviour
         timeLeft = maxTime;
         timerBar.color = Color.green;
 
+        phaseText.text = "1";
+
     }
 
+    
     private void Update()
     {
 
@@ -54,7 +60,18 @@ public class Bar : MonoBehaviour
         {
             timerBar.color = Color.red;
         }
-        //Debug.Log(timerBar.fillAmount);
+        
+        if(inPhase2 == true)
+        {
+            phaseText.text = "2";
+
+        }
+
+        if (inPhase2 == true && inPhase3 == true)
+        {
+            phaseText.text = "3";
+
+        }
     }
 
     void GameOver()
