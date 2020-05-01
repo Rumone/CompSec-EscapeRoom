@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class GameManager : MonoBehaviour
+using UnityEngine.SceneManagement;
+public class Instructions : MonoBehaviour
 {
-    public static PlayerController instance;
+    public string areaToLoad;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,5 +15,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void PlayGame()
+    {
+        SceneManager.LoadScene(areaToLoad);
     }
 }
