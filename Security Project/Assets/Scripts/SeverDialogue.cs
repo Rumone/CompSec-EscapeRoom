@@ -12,6 +12,7 @@ public class SeverDialogue : MonoBehaviour
     public GameObject Panel2;
     public GameObject Router;
     public GameObject Text;
+    public GameObject fadeOut;
 
     public bool canActivate;
     public bool FoundLaptop = false;
@@ -77,5 +78,10 @@ public class SeverDialogue : MonoBehaviour
         Panel2.SetActive(true);
     }
 
+    public void GameOver()
+    {
+        fadeOut.SetActive(true);
+        PlayerController.instance.canMove = false;
+    }
 
 }
