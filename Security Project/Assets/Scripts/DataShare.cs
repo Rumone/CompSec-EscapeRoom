@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class DataShare : MonoBehaviour
 {
-    public GameObject test;
     public GameObject codePanel;
     public GameObject keyCodeDoor;
 
@@ -44,7 +43,7 @@ public class DataShare : MonoBehaviour
             codePanel.SetActive(true);
             PlayerController.instance.canMove = false;
         }
-        if (num == 2)
+        if (num == 3)
         {
             num = 0;
 
@@ -56,7 +55,7 @@ public class DataShare : MonoBehaviour
             BathroomEntrance.SetActive(false);
             BathroomExit.gameObject.SetActive(false);
         }
-        else if (num == 1 || num ==3)
+        else if (num == 1 || num ==2)
         {
             timerBar.fillAmount = timerBar.fillAmount - .009f;
             codePanel.SetActive(false);
