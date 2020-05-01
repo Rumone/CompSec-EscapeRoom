@@ -11,7 +11,7 @@ public class Laptop : MonoBehaviour
 
     public GameObject panel2;
     public GameObject router;
-    string answer1 = "asd";
+    string answer1 = "ilikestealing";
     //ilikestealing
     public bool canActivate;
     public bool inLaptp;
