@@ -15,9 +15,11 @@ public class PlayerController : MonoBehaviour
 
     public bool canMove;
     public bool HasKey;
+    public bool didDTree;
     // Start is called before the first frame update
     void Start()
     {
+        didDTree = false;
         canMove = true;
         if (instance == null)
         {

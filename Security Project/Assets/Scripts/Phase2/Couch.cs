@@ -6,6 +6,7 @@ public class Couch : MonoBehaviour
 {
     public bool canActivate;
     public GameObject cPanel;
+    public GameObject Laptop;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class Couch : MonoBehaviour
     {
         if(canActivate == true && Input.GetKeyUp("space"))
         {
+            Laptop.SetActive(true);
             cPanel.SetActive(true);
             PlayerController.instance.canMove = false;
         }
@@ -40,5 +42,6 @@ public class Couch : MonoBehaviour
     {
         cPanel.SetActive(false);
         PlayerController.instance.canMove = true;
+
     }
 }

@@ -737,7 +737,7 @@ Animator:
   m_GameObject: {fileID: 1401108416}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c6a99c421baffdc4eb7ada3af27a2eab, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9833ed37829f1d34eb96ceb5b85977c3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -863,7 +863,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d34962b139fa6b4491d4b84b08ad552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeeed: 2.5
 --- !u!1 &1892871756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,7 +1097,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2110381642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce55c99b16649d04ba7227a51acefa59, type: 3}
+  m_Script: {fileID: 11500000, guid: de71842f12bd76744a813053b8363323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   areaToLoad: Office
