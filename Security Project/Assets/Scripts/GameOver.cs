@@ -20,6 +20,7 @@ public class GameOver : MonoBehaviour
         if(PlayerController.instance.HasKey == true && canActivate == true && Input.GetKeyUp("space"))
         {
             FadeOut.SetActive(true);
+            PlayerController.instance.canMove = false;
         }
 
         if(PlayerController.instance.HasKey == false && canActivate == true && Input.GetKeyUp("space"))
