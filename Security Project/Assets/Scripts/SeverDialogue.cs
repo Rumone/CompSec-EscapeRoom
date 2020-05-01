@@ -69,7 +69,6 @@ public class SeverDialogue : MonoBehaviour
     {
         Panel2.SetActive(!Panel2);
         PlayerController.instance.canMove = true;
-
     }
 
     public void CorrectButton()
