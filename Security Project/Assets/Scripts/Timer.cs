@@ -25,7 +25,7 @@ public class Timer : MonoBehaviour
     private void Update()
     {
 
-        GameOver();
+        
         if (timeLeft > 0)
         {
             timeLeft -= Time.deltaTime;
@@ -49,13 +49,6 @@ public class Timer : MonoBehaviour
         
     }
 
-    void GameOver()
-    {
-        if (timerBar.fillAmount == 0)
-        {
-            //Debug.Log("Times up");
-        }
-    }
 
     public void ReduceTime()
     {

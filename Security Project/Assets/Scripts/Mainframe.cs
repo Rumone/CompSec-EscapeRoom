@@ -31,6 +31,15 @@ public class Mainframe : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            canActivate = false;
+        }
+
+    }
+
     public void CloseWindow()
     {
         filetransferPanel.SetActive(false);
