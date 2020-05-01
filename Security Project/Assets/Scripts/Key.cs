@@ -35,6 +35,7 @@ public class Key : MonoBehaviour
     {
         keyPanel.SetActive(!keyPanel);
         PlayerController.instance.canMove = true;
+   
 
     }
 

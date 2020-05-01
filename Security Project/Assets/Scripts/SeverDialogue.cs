@@ -76,6 +76,7 @@ public class SeverDialogue : MonoBehaviour
     {
         Panel.SetActive(false);
         Panel2.SetActive(true);
+        Bar.instance.inPhase3 = true;
     }
 
     public void GameOver()
