@@ -4869,7 +4869,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &771869935
 Transform:
   m_ObjectHideFlags: 0
@@ -9394,12 +9394,12 @@ PrefabInstance:
     - target: {fileID: 324551307641618877, guid: fdb41cb25fb286f4081b631633d8467e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.52
+      value: 3.59
       objectReference: {fileID: 0}
     - target: {fileID: 324551307641618877, guid: fdb41cb25fb286f4081b631633d8467e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.67
+      value: -2.92
       objectReference: {fileID: 0}
     - target: {fileID: 324551307641618877, guid: fdb41cb25fb286f4081b631633d8467e,
         type: 3}
@@ -9971,7 +9971,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1633468997}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.67, y: -5.45, z: 0}
+  m_LocalPosition: {x: 3.67, y: -6.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10463,7 +10463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726658831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.14, y: -4.3, z: 0}
+  m_LocalPosition: {x: 4.04, y: -4.9, z: 0}
   m_LocalScale: {x: 0.6, y: 0.5125, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11824,7 +11824,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060891987}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.55, y: -7.65, z: -0.59765625}
+  m_LocalPosition: {x: 2.55, y: -7.72, z: -0.59765625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11841,14 +11841,13 @@ GameObject:
   - component: {fileID: 2069615244}
   - component: {fileID: 2069615246}
   - component: {fileID: 2069615245}
-  - component: {fileID: 2069615247}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2069615244
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11909,26 +11908,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069615243}
   m_CullTransparentMesh: 0
---- !u!114 &2069615247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069615243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af47e50ddcf1ce54eb5009b51af1fa14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Panel: {fileID: 2069615243}
-  Laptop: {fileID: 0}
-  Panel2: {fileID: 0}
-  Router: {fileID: 0}
-  Text: {fileID: 0}
-  fadeOut: {fileID: 0}
-  canActivate: 0
-  FoundLaptop: 0
 --- !u!1 &2077859098
 GameObject:
   m_ObjectHideFlags: 0

@@ -49,7 +49,7 @@ public class Laptop : MonoBehaviour
 
     public void closePanel()
     {
-        panel.SetActive(true);
+        panel.SetActive(false);
         PlayerController.instance.canMove = true;
     }
 
