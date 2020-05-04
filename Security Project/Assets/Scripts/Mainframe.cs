@@ -6,6 +6,7 @@ public class Mainframe : MonoBehaviour
 {
     public GameObject filetransferPanel;
     public bool canActivate;
+    public AudioSource correctSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class Mainframe : MonoBehaviour
         {
             filetransferPanel.SetActive(true);
             PlayerController.instance.canMove = false;
+            correctSound.Play();
         }
     }
 

@@ -6,6 +6,7 @@ public class Key : MonoBehaviour
 {
     public GameObject keyPanel;
     public bool canActivate;
+    public AudioSource correctSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class Key : MonoBehaviour
         {
             keyPanel.SetActive(true);
             PlayerController.instance.canMove = false;
+            correctSound.Play();
         }
     }
 
