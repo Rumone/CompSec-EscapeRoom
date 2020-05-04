@@ -7,6 +7,7 @@ public class Router : MonoBehaviour
     public bool canActivate;
     public GameObject rPanel;
     public GameObject ExittoServerScene;
+    public AudioSource correctSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,5 +51,6 @@ public class Router : MonoBehaviour
         Bar.instance.inPhase3 = true;
         ExittoServerScene.SetActive(true);
         rPanel.SetActive(false);
+        correctSound.Play();
     }
 }

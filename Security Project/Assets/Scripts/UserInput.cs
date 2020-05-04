@@ -18,6 +18,7 @@ public class UserInput : MonoBehaviour
     public GameObject bathoomDoor;
 
     public Image timerBar;
+    public AudioSource correctSound;
     //bathroom exit
 
     // Start is called before the first frame update
@@ -55,6 +56,7 @@ public class UserInput : MonoBehaviour
             panel.SetActive(false);
             panel2.SetActive(true);
             bathoomDoor.SetActive(false);
+            correctSound.Play();
         }
         else
         {

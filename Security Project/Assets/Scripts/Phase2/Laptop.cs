@@ -15,7 +15,7 @@ public class Laptop : MonoBehaviour
     //ilikestealing
     public bool canActivate;
     public bool inLaptp;
-
+    public AudioSource correctSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +43,7 @@ public class Laptop : MonoBehaviour
             panel.SetActive(false);
             panel2.SetActive(true);
             router.SetActive(true);
+            correctSound.Play();
         }
         
     }

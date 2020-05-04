@@ -20,6 +20,7 @@ public class DataShare : MonoBehaviour
 
     public GameObject BathroomExit;
     public GameObject BathroomEntrance;
+    public AudioSource correctSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +48,7 @@ public class DataShare : MonoBehaviour
         {
             num = 0;
 
+            correctSound.Play();
             inDevice = true;
             rightPanel.gameObject.SetActive(true);
             PlayerController.instance.canMove = false;

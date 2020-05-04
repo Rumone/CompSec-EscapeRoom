@@ -16,6 +16,7 @@ public class PinPad : MonoBehaviour
     public bool canActivate;
     public Image timerBar;
     public static PinPad instance;
+    public AudioSource correctSound;
     // Start is called before the first frame update
 
     private void Start()
@@ -46,6 +47,7 @@ public class PinPad : MonoBehaviour
             door2.SetActive(true);
             PlayerController.instance.canMove = true;
             Bar.instance.inPhase2 = true;
+            correctSound.Play();
 
         }
         else
