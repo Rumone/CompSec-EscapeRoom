@@ -50,7 +50,5 @@ public class Router : MonoBehaviour
         Bar.instance.inPhase3 = true;
         ExittoServerScene.SetActive(true);
         rPanel.SetActive(false);
-
-
     }
 }
